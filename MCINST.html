@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frase Romântica</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff0f5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      padding: 20px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .frase {
+      margin-top: 20px;
+      font-size: 1.5em;
+      color: #194695;
+    }
+    button {
+      margin-top: 30px;
+      padding: 10px 20px;
+      font-size: 1em;
+      border: none;
+      border-radius: 10px;
+      background-color: #5877ca;
+      color: white;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    button:hover {
+      background-color: #6e8fd7;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://via.placeholder.com/400x300.png?text=Você+não+é+pescoço,+mas+mexeu+com+a+minha+cabeça" alt="Frase Romântica">
+  <div class="frase">Você não é pescoço, mas mexeu com a minha cabeça.</div>
+  <button onclick="mostrarMensagem()">Clique aqui</button>
+
+  <script>
+    function mostrarMensagem() {
+      alert("Seu pai é padeiro? porque você é um sonho!");
+    }
+  </script>
+</body>
+</html>
